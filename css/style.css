@@ -1,0 +1,180 @@
+body {
+	font-family: 
+}
+
+
+/*导航*/
+.navbar-header .navbar-brand {
+	font-size: 28px;
+	font-weight: bold;
+	color:#40D2B1;
+	height: 70px;
+	line-height: 35px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #0d5444;
+}
+.navbar-default .navbar-toggle:hover {
+    background-color: #45d8b7;
+}
+.navbar-default .navbar-toggle {
+    border-color: #666;
+}
+.navbar-collapse ul li a {
+	line-height: 35px;
+	font-size: 18px;
+}
+
+
+/*海报区域*/
+#poster {
+	width: 100%;
+	background: url(img/home-bg.jpg);
+	margin-top:70px; 
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+}
+.filter {
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.7);
+}
+#poster h1 {
+	padding-top: 70px;
+	font-weight: bold;
+}
+#poster p {
+	font-size: 15px;
+	line-height: 35px;
+}
+#poster img {
+	width: 900px;
+	margin-top: 30px;
+	display: inline-block;
+}
+
+
+
+/*bbs论坛区域*/
+
+#bbs {
+	margin-top: 50px;
+	text-align: center;
+}
+#bbs .col-md-4 {
+	/*border: 1px solid #666;*/
+}
+#bbs a {
+	text-decoration: none;
+	color: #000;
+}
+#bbs .col-md-4:hover {
+	box-shadow: 0px 2px 5px #666;
+}
+#bbs img {
+	margin: 0 auto;
+}
+#bbs .col-md-4 {
+	/*width: 150px;*/
+	height: 200px;
+	margin-top: 90px;
+}
+#bbs h3 {
+	font-weight: bold;
+}
+
+
+/*html5区域*/
+#html5 {
+	margin-top: 80px;
+}
+#html5 h2 {
+	font-weight: bold;
+}
+#html5 p {
+	line-height: 35px;
+}
+#html5 p span {
+	background: #4ada95;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 20px;
+}
+
+
+/*bootstrap区域*/
+#bootstrap {
+	margin-top: 80px;
+}
+#bootstrap h2 {
+	font-weight: bold;
+}
+#bootstrap p {
+	line-height:25px;
+}
+#bootstrap p span {
+	background: #4ada95;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 20px;
+}
+
+/*联系我们*/
+#contact {
+	background: url(img/contact-bg.png) no-repeat;
+	background-size: cover;
+	
+	color: #fff;
+}
+#contact p {
+	line-height: 25px;
+	
+}
+#contact .col-md-6>p {
+	text-indent: 2em;
+}
+#contact address p {
+	line-height: 35px;
+} 
+#contact .filter {
+	padding-top: 90px;
+}
+#contact h2 {
+	font-weight: bold;
+	margin-bottom: 25px;
+	margin-top: 0;
+}
+#contact .form-control {
+	border-radius: 0;
+	border: none;
+	margin-bottom: 25px;
+	height: 50px;
+}
+#contact textarea.form-control {
+    height: auto;
+}
+#contact input[type="submit"] {
+	background: #40D1B0;
+	color:#fff;
+	transition: all .3s;
+}
+#contact input[type="submit"]:hover {
+	background: #1FB290;
+}
+
+/*footer*/
+
+footer {
+	text-align: center;
+	font-weight: 400;
+	padding: 10px 0;
+}
